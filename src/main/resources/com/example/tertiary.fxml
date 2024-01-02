@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="anchor-pane" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.TertiaryController">
+   <children>
+      <Label layoutX="157.0" layoutY="14.0" styleClass="label-output" text="PERPUSTAKAAN">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Text layoutX="221.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-output" text="Transaksi Berhasil!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="lblCountdown" alignment="BASELINE_CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="347.0" prefHeight="44.0" prefWidth="433.0" styleClass="label-output-countdown" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" hmax="0.0" layoutX="84.0" layoutY="100.0" prefHeight="235.0" prefWidth="433.0" styleClass="scroll-pane" vbarPolicy="ALWAYS" vmax="500.0">
+         <content>
+            <Label fx:id="lblOutput" alignment="TOP_CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" prefWidth="433.0" styleClass="label-output-hasil" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
