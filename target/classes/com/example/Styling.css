@@ -1,0 +1,187 @@
+/* Styling untuk keseluruhan fxml */
+.anchor-pane {
+    -fx-background-image: url('Background.png');
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dialog-pane {
+    -fx-background-color: black;
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dialog-pane > .content.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.dialog-pane .button {
+    -fx-background-color: mediumblue;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, mediumblue, 10, 0, 0, 0);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+}
+
+
+/* Styling untuk MainScene.fxml */
+.label-main {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+}
+
+.text-main-1 {
+    -fx-fill: white; 
+}
+
+.text-main-2 {
+    -fx-fill: lightgray;
+}
+
+.text-main-3 {
+    -fx-fill: lightgray;
+}
+
+.tf-main {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: darkslategray;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: lightgray;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+
+.button-main {
+    -fx-background-color: mediumblue;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, mediumblue, 10, 0, 0, 0);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+.button-main:hover {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+}
+
+
+/* Styling untuk DetailScene.fxml */
+.label-detail {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.text-detail {
+    -fx-fill: lightgray;
+}
+
+.tf-detail {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: darkslategray;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: lightgray;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+.button-detail {
+    -fx-background-color: mediumblue;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, mediumblue, 10, 0, 0, 0);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+.button-detail:hover {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+}
+
+
+/* Styling untuk OutputScene.fxml */
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: mediumblue;
+    -fx-effect: dropshadow(three-pass-box, mediumblue, 10, 0, 0, 0);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s;
+    -fx-min-height: 20px;
+}
+
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: darkblue;
+}
+
+.label-output {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.text-output {
+    -fx-fill: lightgreen;
+    -fx-font-weight: bold;
+}
+
+.label-output-hasil {
+    -fx-text-fill: white;
+    -fx-effect: 
+        dropshadow(three-pass-box, black, 3, 1, 1, 1),
+        dropshadow(three-pass-box, black, 3, -1, 1, -1),
+        dropshadow(three-pass-box, black, 3, 1, -1, -1),
+        dropshadow(three-pass-box, black, 3, -1, -1, 1);
+}
+
+.label-output-countdown {
+    -fx-text-fill: white;
+    -fx-effect: 
+        dropshadow(three-pass-box, black, 3, 1, 1, 1),
+        dropshadow(three-pass-box, black, 3, -1, 1, -1),
+        dropshadow(three-pass-box, black, 3, 1, -1, -1),
+        dropshadow(three-pass-box, black, 3, -1, -1, 1);
+}

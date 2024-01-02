@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="anchor-pane" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController">
+   <children>
+      <Label layoutX="157.0" layoutY="14.0" styleClass="label-main" text="PERPUSTAKAAN" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Text layoutX="84.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-main-3" text="Jumlah Buku:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfjumlah" layoutX="84.0" layoutY="200.0" prefHeight="25.0" prefWidth="433.0" promptText="Masukkan Jumlah Buku..." styleClass="tf-main" />
+      <Button layoutX="84.0" layoutY="291.0" mnemonicParsing="false" onAction="#btnNextClicked" prefHeight="28.0" prefWidth="433.0" styleClass="button-main" text="Selanjutnya" />
+      <Text layoutX="190.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-main-1" text="Selamat datang kembali....">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="203.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-main-2" text="Senang melihatmu kembali">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
